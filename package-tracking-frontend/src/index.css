@@ -1,0 +1,145 @@
+body {
+  margin: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+}
+
+button {
+  background-color: #0084ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin-left: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0d0670;
+  cursor: pointer;
+}
+
+form {
+  margin: 1rem;
+  margin-left: 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-top: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #0084ff;
+  color: white;
+}
+
+thead th {
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.2s ease;
+}
+
+tbody tr:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+tbody td {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.package-detail {
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: #2c3e50;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 0.4rem;
+}
+
+section p {
+  margin: 0.3rem 0;
+  color: #333;
+  font-size: 1rem;
+}
+
+section strong {
+  color: #000;
+}
+
+.status-history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.status-history li {
+  padding: 0.5rem;
+  margin-bottom: 0.3rem;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.status-history p {
+  color: #777;
+  font-style: italic;
+}
+
+.update-status select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.update-status select:hover {
+  border-color: #4caf50;
+}
+
+table .Cancelled {
+    background: linear-gradient(to right, red 1%, aliceblue 9%, aliceblue 90%);
+}
+
+table .Created {
+    background: linear-gradient(to right, blue 1%, aliceblue 9%, aliceblue 90%);
+}
+
+table .Accepted {
+    background: linear-gradient(to right, green 1%, aliceblue 9%, aliceblue 90%);
+}
+
+table .Sent {
+    background: linear-gradient(to right, orange 1%, aliceblue 9%, aliceblue 90%);
+}
+
+table .Returned {
+    background: linear-gradient(to right, rgb(190, 190, 0) 1%, aliceblue 9%, aliceblue 90%);
+}

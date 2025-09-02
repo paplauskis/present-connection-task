@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "package-tracking-api", "package-tracking-api\package-tracking-api.csproj", "{3A4E52FF-F1F4-4FCA-9DD0-1FDD9969A010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{61D327D2-7A5A-4F84-A1A2-0A8274DD5AB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A4E52FF-F1F4-4FCA-9DD0-1FDD9969A010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4E52FF-F1F4-4FCA-9DD0-1FDD9969A010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4E52FF-F1F4-4FCA-9DD0-1FDD9969A010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4E52FF-F1F4-4FCA-9DD0-1FDD9969A010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D327D2-7A5A-4F84-A1A2-0A8274DD5AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D327D2-7A5A-4F84-A1A2-0A8274DD5AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D327D2-7A5A-4F84-A1A2-0A8274DD5AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D327D2-7A5A-4F84-A1A2-0A8274DD5AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
